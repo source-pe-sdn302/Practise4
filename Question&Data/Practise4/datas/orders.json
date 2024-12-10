@@ -1,0 +1,27 @@
+[
+    {
+      "_id": { "$oid": "64b8e8173e0b8d5b17f799c1" },
+      "ListProducts": [
+        {
+          "_id": { "$oid": "64b8e8173e0b8d5b17f799b1" },
+          "Quantity": 10
+        },
+        {
+          "_id": { "$oid": "64b8e8173e0b8d5b17f799b3" },
+          "Quantity": 5
+        }
+      ],
+      "OrderDate": { "$date": "2024-12-10T10:00:00Z" }
+    },
+    {
+      "_id": { "$oid": "64b8e8173e0b8d5b17f799c2" },
+      "ListProducts": [
+        {
+          "_id": { "$oid": "64b8e8173e0b8d5b17f799b2" },
+          "Quantity": 15
+        }
+      ],
+      "OrderDate": { "$date": "2024-12-09T15:30:00Z" }
+    }
+  ]
+  

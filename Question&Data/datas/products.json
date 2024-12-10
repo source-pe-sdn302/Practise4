@@ -1,0 +1,27 @@
+[
+    {
+      "_id": { "$oid": "64b8e8173e0b8d5b17f799b1" },
+      "ProductName": "Product 1",
+      "ProductCode": "P001",
+      "Price": 100,
+      "Quantity": 50,
+      "SupplierID": { "$oid": "64b8e8173e0b8d5b17f799a1" }
+    },
+    {
+      "_id": { "$oid": "64b8e8173e0b8d5b17f799b2" },
+      "ProductName": "Product 2",
+      "ProductCode": "P002",
+      "Price": 200,
+      "Quantity": 30,
+      "SupplierID": { "$oid": "64b8e8173e0b8d5b17f799a2" }
+    },
+    {
+      "_id": { "$oid": "64b8e8173e0b8d5b17f799b3" },
+      "ProductName": "Product 3",
+      "ProductCode": "P003",
+      "Price": 150,
+      "Quantity": 20,
+      "SupplierID": { "$oid": "64b8e8173e0b8d5b17f799a1" }
+    }
+  ]
+  

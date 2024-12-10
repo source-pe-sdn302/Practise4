@@ -1,11 +1,11 @@
 const mongoose = require("mongoose");
-const User = require("./user.model");
-
-const db = {}
-
+const Order = require("./order");
+const Product = require("./product");
+const Supplier = require("./supplier");
+const db = {};
+db.Order = Order;
+db.Product = Product;
+db.Supplier = Supplier;
 // Define schema
-db.User = User
-
-
 
 module.exports = db;
